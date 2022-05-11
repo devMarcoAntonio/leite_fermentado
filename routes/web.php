@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-use leite_fermentado\app\Http\Controllers\LojaController.php
+use App\Http\Controllers\LojaController;
+
 
 Route::get('/', [LojaController::class,'index']);
